@@ -4,6 +4,7 @@
 </style>
 <template>
   <div id="home">
+    <title-menu></title-menu>
     <top></top>
     <foot></foot>
   </div>
@@ -12,6 +13,7 @@
 <script>
   import Top from './component/top.vue'
   import Foot from './component/foot.vue'
+  import TitleMenu from './component/title.vue'
 export default {
   name: 'home',
   data () {
@@ -21,7 +23,8 @@ export default {
   },
   components: {
     Top,
-    Foot
+    Foot,
+    TitleMenu,
   },
 }
 </script>

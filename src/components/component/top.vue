@@ -1,51 +1,61 @@
-<style scoped>
-  .layout-logo{
-    float: left;
-    position: relative;
-    margin-top: 10px;
-  }
-  .layout-nav{
-    float: right;
-  }
-  .ivu-menu-horizontal {
-    height: 101px;
-    line-height: 101px;
-    padding: 0 60px;
-  }
-  .layout-ceiling{
-    background: #464c5b;
-    padding: 10px 0;
-    overflow: hidden;
-    color: #ffffff;
+<style>
+  .el-carousel__item h3 {
+    color: #475669;
     font-size: 14px;
+    opacity: 0.75;
+    line-height: 200px;
+    margin: 0;
   }
+  .text{
+    position: absolute;
+    z-index: 9999;
+    font: "Microsoft YaHei";
+    color: white;
+    margin-left: 10%;
+    margin-top: 250px;
+    text-align: start;
+  }
+  .text .cn{
+    line-height: 70px;
+    font-size: 50px;
+  }
+  .text .en{
+    line-height: 50px;
+    font-size: 30px;
+  }
+
 </style>
 <template>
-  <div id="top" class="clearfix">
-    <el-menu theme="dark" :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
-      <el-menu-item index="1">处理中心</el-menu-item>
-      <el-submenu index="2">
-        <template slot="title">我的工作台</template>
-        <el-menu-item index="2-1">选项1</el-menu-item>
-        <el-menu-item index="2-2">选项2</el-menu-item>
-        <el-menu-item index="2-3">选项3</el-menu-item>
-      </el-submenu>
-      <el-menu-item index="3"><a href="https://www.ele.me" target="_blank">订单管理</a></el-menu-item>
-    </el-menu>
-    <div class="line"></div>
-    <el-menu :default-active="activeIndex2" class="el-menu-demo" mode="horizontal" @select="handleSelect">
-      <el-menu-item index="1">处理中心</el-menu-item>
-      <el-submenu index="2">
-        <template slot="title">我的工作台</template>
-        <el-menu-item index="2-1">选项1</el-menu-item>
-        <el-menu-item index="2-2">选项2</el-menu-item>
-        <el-menu-item index="2-3">选项3</el-menu-item>
-      </el-submenu>
-      <el-menu-item index="3"><a href="https://www.ele.me" target="_blank">订单管理</a></el-menu-item>
-    </el-menu>
+  <el-carousel :interval="5000" arrow="always" height="600px">
+    <el-carousel-item >
+      <img style="float: left;" src="../../assets/ic_bg_1.jpg" height="600px" width="100%"/>
+      <div class="text">
+        <span class="cn">亨凯丰精密工业 · 科技成就完美未来</span><br/>
+        <span class="en">HENGKAIDING PRECISION INDUSTRY</span><br/>
+        <span class="en">QUALIT UACHIEVEMENTS</span>
+      </div>
+    </el-carousel-item>
+    <el-carousel-item >
+      <img style="float: left;" src="../../assets/ic_bg_2.png" height="600px" />
+      <div class="text">
+        <span class="cn">行业领先 · 质量第一 价格优惠 服务至上</span><br/>
+        <span class="en">HENGKAIDING PRECISION INDUSTRY</span><br/>
+        <span class="en">QUALIT UACHIEVEMENTS</span>
+      </div>
+    </el-carousel-item>
+    <el-carousel-item >
+      <img style="float: left;" src="../../assets/ic_bg_3.jpg" height="600px"/>
+      <div class="text">
+        <span class="cn">合作共赢 · 为客户创造价值</span><br/>
+        <span class="en">HENGKAIDING PRECISION INDUSTRY</span><br/>
+        <span class="en">QUALIT UACHIEVEMENTS</span>
+      </div>
+    </el-carousel-item>
 
-  </div>
+  </el-carousel>
 </template>
+
+
 <script>
   export default {
     data() {
