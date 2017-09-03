@@ -6,6 +6,7 @@
   <div id="home">
     <title-menu></title-menu>
     <top></top>
+    <contact></contact>
     <foot></foot>
   </div>
 </template>
@@ -14,6 +15,7 @@
   import Top from './component/top.vue'
   import Foot from './component/foot.vue'
   import TitleMenu from './component/title.vue'
+  import Contact from './component/contact.vue'
 export default {
   name: 'home',
   data () {
@@ -25,6 +27,7 @@ export default {
     Top,
     Foot,
     TitleMenu,
+    Contact,
   },
 }
 </script>
