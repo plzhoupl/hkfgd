@@ -4,6 +4,7 @@
 </style>
 <template>
   <div id="home">
+    <title-menu></title-menu>
     <top></top>
     <Carousel autoplay v-model="value">
       <CarouselItem>
@@ -29,6 +30,7 @@
 <script>
   import Top from './component/top.vue'
   import Foot from './component/foot.vue'
+  import TitleMenu from './component/title.vue'
 export default {
   name: 'home',
   data () {
@@ -38,7 +40,8 @@ export default {
   },
   components: {
     Top,
-    Foot
+    Foot,
+    TitleMenu,
   },
 }
 </script>
