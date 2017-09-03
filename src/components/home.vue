@@ -5,23 +5,6 @@
 <template>
   <div id="home">
     <top></top>
-    <Carousel autoplay v-model="value">
-      <CarouselItem>
-        <div class="demo-carousel">
-          <img src="http://www.tsdgd.com/upfile/2013101016187741.jpg" alt="">
-        </div>
-      </CarouselItem>
-      <CarouselItem>
-        <div class="demo-carousel">
-          <img src="http://www.tsdgd.com/upfile/2013101016187741.jpg" alt="">
-        </div>
-      </CarouselItem>
-      <CarouselItem>
-        <div class="demo-carousel">
-          <img src="http://www.tsdgd.com/upfile/2013101016187741.jpg" alt="">
-        </div>
-      </CarouselItem>
-    </Carousel>
     <foot></foot>
   </div>
 </template>

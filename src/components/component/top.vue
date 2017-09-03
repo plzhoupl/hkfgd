@@ -22,50 +22,6 @@
 </style>
 <template>
   <div id="top" class="clearfix">
-    <!--<Row>-->
-    <!--<ul class="layout-ceiling">-->
-      <!--<Col span="6" offset="4">-->
-        <!--<li class="left">您好，欢迎光临深圳市亨凯丰精密工业有限公司！</li>-->
-      <!--</Col>-->
-      <!--<Col span="6" offset="">-->
-      <!--<li class="right">联系电话：0755-29722733</li>-->
-      <!--</Col>-->
-    <!--</ul>-->
-    <!--</Row>-->
-    <!--<Row>-->
-    <!--<Menu mode="horizontal" theme="primary" active-name="1">-->
-      <!--<Col span="4" offset="2">-->
-      <!--<div class="layout-logo">-->
-        <!--<img src="../../assets/logo.png" alt="">-->
-      <!--</div>-->
-      <!--</Col>-->
-      <!--<Col span="16">-->
-      <!--<div class="layout-nav">-->
-        <!--<MenuItem name="1">-->
-          <!--首页-->
-        <!--</MenuItem>-->
-        <!--<MenuItem name="2">-->
-          <!--关于我们-->
-        <!--</MenuItem>-->
-        <!--<MenuItem name="3">-->
-          <!--产品中心-->
-        <!--</MenuItem>-->
-        <!--<MenuItem name="4">-->
-          <!--设备中心-->
-        <!--</MenuItem>-->
-        <!--<MenuItem name="5">-->
-          <!--人才招聘-->
-        <!--</MenuItem>-->
-        <!--<MenuItem name="6">-->
-          <!--在线留言-->
-        <!--</MenuItem>-->
-        <!--<MenuItem name="7">-->
-          <!--联系我们-->
-        <!--</MenuItem>-->
-      <!--</div>-->
-      <!--</Col>-->
-    <!--</Menu>-->
-    <!--</Row>-->
     <el-menu theme="dark" :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
       <el-menu-item index="1">处理中心</el-menu-item>
       <el-submenu index="2">
