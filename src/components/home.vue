@@ -10,6 +10,7 @@
     <Product></Product>
     <item></item>
     <equipment> </equipment>
+    <contact></contact>
     <foot></foot>
   </div>
 </template>
@@ -21,6 +22,7 @@
   import Equipment from './component/equipment.vue'
   import Item from './component/item.vue'
   import Product from './component/product.vue'
+  import Contact from './component/contact.vue'
 export default {
   name: 'home',
   data () {
@@ -35,6 +37,7 @@ export default {
     Equipment,
     Item,
     Product,
+    Contact,
   },
 }
 </script>

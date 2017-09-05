@@ -6,7 +6,7 @@
     line-height: 120px;
     z-index: 999;
     color: white;
-
+    cursor: pointer;
   }
   .item{
     background: transparent;
@@ -47,6 +47,32 @@
     methods: {
       selectMenu(menu) {
         this.selectMenus=menu;
+        switch(7)
+        {
+          case 1:
+            this.$router.push({path:'/'});
+            break;
+          case 2:
+            this.$router.push({path:'/about'});
+            break;
+          case 3:
+            this.$router.push({path:'/zhaopin'});
+            break;
+          case 4:
+            this.$router.push({path:'/zhaopin'});
+            break;
+          case 5:
+            this.$router.push({path:'/zhaopin'});
+            break;
+          case 6:
+            this.$router.push({path:'/zhaopin'});
+            break;
+          case 7:
+            this.$router.push({path:'/zhaopin'});
+            break;
+          default:
+            this.$router.push({path:'/'});
+        }
       }
     }
   }
