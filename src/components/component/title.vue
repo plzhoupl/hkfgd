@@ -38,41 +38,10 @@
 <script>
   export default {
     name: 'title',
-    data () {
-      return {
-        menus: ["首页","关于我们","产品中心","设备中心","人才招聘","在线留言","联系我们"],
-        selectMenus:"首页"
-       }
-    },
+    props:["menus","selectMenus"],
     methods: {
       selectMenu(menu) {
-        this.selectMenus=menu;
-        switch(7)
-        {
-          case 1:
-            this.$router.push({path:'/'});
-            break;
-          case 2:
-            this.$router.push({path:'/about'});
-            break;
-          case 3:
-            this.$router.push({path:'/zhaopin'});
-            break;
-          case 4:
-            this.$router.push({path:'/zhaopin'});
-            break;
-          case 5:
-            this.$router.push({path:'/zhaopin'});
-            break;
-          case 6:
-            this.$router.push({path:'/zhaopin'});
-            break;
-          case 7:
-            this.$router.push({path:'/zhaopin'});
-            break;
-          default:
-            this.$router.push({path:'/'});
-        }
+        this.$emit("selectMenus",menu)
       }
     }
   }

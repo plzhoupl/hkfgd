@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/Home'
-import About from '../components/component/detail/about'
-import Zhaopin from '../components/component/detail/zhaopin'
+import About from '@/components/component/detail/about'
+import Zhaopin from '@/components/component/detail/zhaopin'
 
 Vue.use(Router)
 
