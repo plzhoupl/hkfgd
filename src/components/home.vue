@@ -5,9 +5,9 @@
 <template>
   <div id="home">
     <top></top>
-    <item></item>
+    <item :en="'Product center'" :cn="'产品中心'"></item>
     <Product></Product>
-    <item></item>
+    <item :en="'Equipment center'" :cn="'设备中心'"></item>
     <equipment> </equipment>
     <contact></contact>
     <foot></foot>
