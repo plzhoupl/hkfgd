@@ -149,6 +149,7 @@
           {img: "/static/product/product68.jpg", title: "包装盒"},
           {img: "/static/product/product69.jpg", title: "包装盒"},
           {img: "/static/product/product70.jpg", title: "包装盒"},
+          {img: "/static/product/product71.jpg", title: "包装盒"},
         ],
         showImg: [],
       }

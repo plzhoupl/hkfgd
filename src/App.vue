@@ -30,13 +30,15 @@
             this.$router.push({path: '/about'});
             break;
           case this.menus[2]:
-            $(window).scrollTop(1500);
+            this.$router.push({path: '/index'});
+            $(window).scrollTop(1200);
             break;
           case this.menus[3]:
-            this.$router.push({path: '/zhaopin'});
+            this.$router.push({path: '/index'});
+            $(window).scrollTop(1500);
             break;
           case this.menus[4]:
-            this.$router.push({path: '/zhaopin'});
+            this.$router.push({path: '/'});
             break;
           case this.menus[5]:
             this.$router.push({path: '/zhaopin'});

@@ -1,11 +1,4 @@
 <style scoped>
-  #menu {
-    color: #000 !important;
-    position: static !important;
-    z-index: 0 !important;
-    line-height: 100px !important;
-  }
-
   p {
     text-align: left;
     line-height: 36px;
@@ -24,7 +17,6 @@
 
 <template>
   <div id="zhaopin">
-    <title-menu></title-menu>
     <h2>人才招聘</h2>
     <el-row>
       <el-col :span="12" :offset="8">
@@ -37,7 +29,6 @@
 
 <script>
   import Foot from '../../component/foot.vue'
-  import TitleMenu from '../../component/title.vue'
 
   export default {
     data() {
@@ -63,7 +54,6 @@
     },
     components: {
       Foot,
-      TitleMenu,
     },
   }
 </script>

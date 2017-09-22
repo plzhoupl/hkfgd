@@ -1,11 +1,11 @@
 <style scoped>
   #menu{
-    position: absolute;
-    width: 1000px;
+    /*position: absolute;*/
+    /*width: 1000px;*/
     margin-left: 15%;
-    line-height: 120px;
+    line-height: 80px;
     z-index: 999;
-    color: white;
+    /*color: white;*/
     cursor: pointer;
   }
   .item{
@@ -13,14 +13,15 @@
 
   }
   .select-item{
-    background: deepskyblue;
+    color: #E74C3C;
     border-radius: 5px;
   }
   .menu{
+    display: block;
     margin-top: 40px;
     line-height: 50px;
     width: 80px;
-    padding: 10px 20px 10px 20px;
+    /*padding: 10px 20px 10px 20px;*/
   }
   .logo{
     margin-top: 20px;
@@ -29,8 +30,8 @@
 
 <template>
     <el-row id="menu">
-      <el-col class="logo" :span="3"><img src="../../assets/logo.png" width="150px"/></el-col>
-      <el-col v-for="menu in menus":span="3" > <span v-on:click="selectMenu(menu)"  :class="selectMenus==menu ?
+      <el-col class="logo" :span="6"><img src="../../assets/logo.png" width="150px"/></el-col>
+      <el-col class="list" v-for="menu in menus" :span="2" > <span v-on:click="selectMenu(menu)"  :class="selectMenus==menu ?
        'select-item menu' :'item menu'" >{{menu}}</span> </el-col>
     </el-row>
 </template>

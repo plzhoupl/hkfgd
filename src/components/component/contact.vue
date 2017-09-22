@@ -4,7 +4,7 @@
     background: -o-linear-gradient(bottom right, #EFEFEF, #C8C7C5);
     background: -moz-linear-gradient(bottom right, #EFEFEF, #C8C7C5);
     background: linear-gradient(to bottom right, #EFEFEF , #C8C7C5);
-    padding-bottom: 60px;
+    padding: 60px 0;
   }
   h2{
     height: 100px;
