@@ -10,11 +10,11 @@
   }
   .item{
     background: transparent;
-
   }
-  .select-item{
+  .menu:hover{
     color: #E74C3C;
-    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: underline;
   }
   .menu{
     display: block;

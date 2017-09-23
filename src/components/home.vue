@@ -9,7 +9,10 @@
     <Product></Product>
     <item :en="'Equipment center'" :cn="'设备中心'"></item>
     <equipment> </equipment>
+    <item :en="'About us'" :cn="'关于我们'"></item>
     <contact></contact>
+    <item :en="'Online message'" :cn="'在线留言'"></item>
+    <write></write>
     <foot></foot>
   </div>
 </template>
@@ -21,6 +24,7 @@
   import Item from './component/item.vue'
   import Product from './component/product.vue'
   import Contact from './component/contact.vue'
+  import Write from './component/write.vue'
 export default {
   name: 'home',
   data () {
@@ -35,6 +39,7 @@ export default {
     Item,
     Product,
     Contact,
+    Write,
   },
 
 }

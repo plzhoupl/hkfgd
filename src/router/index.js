@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import Home from '@/components/home'
 import About from '@/components/component/detail/about'
 import Zhaopin from '@/components/component/detail/zhaopin'
-
+import Product from '@/components/component/product'
 Vue.use(Router)
 
 export default new Router({
@@ -11,11 +11,10 @@ export default new Router({
     {
       path: '/',
       name: 'home',
-      component: Home
-    }, {
-      path: '/index',
-      name: 'index',
-      component: Home
+      component: Home,
+      children: [
+        { path: "/product", name:'product', component: Product }
+      ]
     },
     {
       path: '/about',
