@@ -1,11 +1,4 @@
 <style scoped>
-  #menu {
-    color: #000 !important;
-    position: static !important;
-    z-index: 0 !important;
-    line-height: 100px !important;
-  }
-
   p {
     text-align: left;
     line-height: 36px;
@@ -24,7 +17,6 @@
 
 <template>
   <div id="about">
-    <title-menu></title-menu>
     <h2>关于我们</h2>
     <el-row>
       <el-col :span="16" :offset="4">
@@ -37,7 +29,6 @@
 
 <script>
   import Foot from '../../component/foot.vue'
-  import TitleMenu from '../../component/title.vue'
 
   export default {
     data() {
@@ -51,13 +42,15 @@
           '执着：坚持到底，不放弃。',
           '极致：力争将结果不断地做到极致。',
           '联系人：左先生',
-          '联系电话：18928444977 固话号码：0755-29722733',
+          '联系电话：18928444977 固话号码：0755-36528911',
         ]
       }
     },
     components: {
       Foot,
-      TitleMenu,
     },
+    mounted(){
+      $(window).scrollTop(0);
+    }
   }
 </script>

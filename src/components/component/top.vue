@@ -9,7 +9,7 @@
   .text{
     position: absolute;
     z-index: 9999;
-    font: "Microsoft YaHei";
+    font-family: "Microsoft YaHei";
     color: white;
     margin-left: 10%;
     margin-top: 250px;

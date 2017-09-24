@@ -54,7 +54,7 @@
         </el-col>
         <el-col :span="4">
           <ul class="left">
-            <li style="color: #007AFF;font-size: 20px;font-weight: bold">0755-29722733</li>
+            <li style="color: #007AFF;font-size: 20px;font-weight: bold">0755-36528911</li>
             <li>公司地址：深圳市宝安区福永街道凤凰第一工业区岭北4路2号3楼</li>
             <li>联系人：左先生</li>
             <li>电话：18928444977</li>
@@ -62,6 +62,6 @@
         </el-col>
       </el-row>
     </div>
-    <p>版权所有：深圳市亨凯丰精密工业有限公司 &nbsp;Copyright 2012 hengkaifeng.All Rights Reserved</p>
+    <p>版权所有：深圳市亨凯丰精密工业有限公司 &nbsp;Copyright 2017 hengkaifeng.All Rights Reserved</p>
   </div>
 </template>

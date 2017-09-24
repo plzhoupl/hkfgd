@@ -70,7 +70,6 @@
           {img: "/static/equ/class/class1.jpg", title: "综合办公室"},
           {img: "/static/equ/class/class2.jpg", title: "会议室"},
           {img: "/static/equ/class/class3.jpg", title: "办公室走道"},
-          {img: "/static/equ/class/class4.jpg", title: "厂区大院"},
         ],
         cnc: [
           {img: "/static/equ/cnc/cnc1.jpg", title: "机加工车间2"},
