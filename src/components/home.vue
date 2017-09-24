@@ -41,6 +41,20 @@ export default {
     Contact,
     Write,
   },
+  mounted(){
+    let height=0;
+    switch (this.$route.params.menu){
+      case'':
+        break;
+      case'equipment':
+        height=document.getElementById('equ').offsetTop-100;
+        break;
+      case'product':
+        height=document.getElementById('product').offsetTop-100;
+        break;
+    }
+    $(window).scrollTop(height);
+  }
 
 }
 </script>
