@@ -55,5 +55,8 @@
     components: {
       Foot,
     },
+    mounted(){
+      $(window).scrollTop(0);
+    }
   }
 </script>
