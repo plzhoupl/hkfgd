@@ -1,4 +1,8 @@
 <style scoped>
+  #zhaopin{
+    background-color: #F1EAEB;
+    padding: 80px 0;
+  }
   p {
     text-align: left;
     line-height: 36px;
@@ -16,13 +20,15 @@
 </style>
 
 <template>
-  <div id="zhaopin">
+  <div>
+    <div id="zhaopin">
     <h2>人才招聘</h2>
     <el-row>
       <el-col :span="12" :offset="8">
         <p v-for="item in items">{{item}}</p>
       </el-col>
     </el-row>
+    </div>
     <foot></foot>
   </div>
 </template>
@@ -47,7 +53,8 @@
           '3.有从事化学分析相关工作经验优先。',
           '待遇：面议',
           '联系地址：深圳市宝安区福永街道凤凰第一工业区岭北4路2号3楼',
-          '联系电话：18928444977/0755-29722733 联系人：左先生',
+          '联系电话：18928444977/0755-29722733',
+          '联系人：左先生'
         ]
       }
 

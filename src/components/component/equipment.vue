@@ -23,7 +23,7 @@
 
 
 <template>
-  <div id="equ">
+  <div id="equipment">
 
     <el-row class="content">
       <el-col :span="4">

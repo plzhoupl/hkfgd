@@ -39,17 +39,17 @@
         </el-col>
         <el-col :span="2" :offset="1">
           <ul class="left">
-            <li><a href="">首 页</a></li>
-            <li><a href="">关于我们</a></li>
-            <li><a href="">产品中心</a></li>
-            <li><a href="">设备中心</a></li>
+            <li><router-link to="/">首 页</router-link></li>
+            <li><router-link to="/">关于我们</router-link></li>
+            <li><router-link to="/">产品中心</router-link></li>
+            <li><router-link to="/">设备中心</router-link></li>
           </ul>
         </el-col>
         <el-col :span="2">
           <ul class="left">
-            <li><a href="">人才招聘</a></li>
-            <li><a href="">在线留言</a></li>
-            <li><a href="">联系我们</a></li>
+            <li><router-link to="/zhaopin">人才招聘</router-link></li>
+            <li><router-link to="/">在线留言</router-link></li>
+            <li><router-link to="/">联系我们</router-link></li>
           </ul>
         </el-col>
         <el-col :span="4">
@@ -65,3 +65,10 @@
     <p>版权所有：深圳市亨凯丰精密工业有限公司 &nbsp;Copyright 2017 hengkaifeng.All Rights Reserved</p>
   </div>
 </template>
+<script>
+  export default {
+    mounted() {
+      $(window).scrollTop(0);
+    }
+  }
+</script>

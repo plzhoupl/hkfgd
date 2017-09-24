@@ -27,7 +27,7 @@
             this.linkToHome('');
             break;
           case this.menus[1]:
-            this.$router.push({path: '/about'});
+            this.linkToHome('contact');
             break;
           case this.menus[2]:
             this.linkToHome('product');
@@ -39,10 +39,10 @@
             this.$router.push({path: '/zhaopin'});
             break;
           case this.menus[5]:
-            this.$router.push({path: '/zhaopin'});
+            this.linkToHome('write');
             break;
           case this.menus[6]:
-            this.$router.push({path: '/zhaopin'});
+            this.linkToHome('foot');
             break;
           default:
             this.$router.push({path: '/'});
@@ -54,13 +54,22 @@
           let height=0;
           switch (item){
             case'':
-            height=0;
+              height=0;
               break;
-            case'equipment':
-              height=document.getElementById('equ').offsetTop-100;
+            case'contact':
+              height=document.getElementById('contact').offsetTop-100;
               break;
             case'product':
               height=document.getElementById('product').offsetTop-100;
+              break;
+            case'equipment':
+              height=document.getElementById('equipment').offsetTop-100;
+              break;
+            case'write':
+              height=document.getElementById('write').offsetTop-100;
+              break;
+            case'foot':
+              height=document.getElementById('foot').offsetTop-100;
               break;
           }
           $(window).scrollTop(height);

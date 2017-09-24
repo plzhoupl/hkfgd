@@ -1,4 +1,8 @@
 <style scoped>
+  #about{
+    background-color: #F1EAEB;
+    padding: 80px 0;
+  }
   p {
     text-align: left;
     line-height: 36px;
