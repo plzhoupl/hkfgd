@@ -34,7 +34,6 @@
             break;
           case this.menus[3]:
             this.linkToHome('equipment');
-            //     $(window).scrollTop(1500);
             break;
           case this.menus[4]:
             this.$router.push({path: '/zhaopin'});
@@ -50,7 +49,7 @@
         }
       }, linkToHome(item = '') {
         if (this.$route.name !== 'home'){
-          this.$router.push({path: '/',params:{title:'product'}});
+          this.$router.push({name: 'home', params: {menu:item}});
         }else{
           let height=0;
           switch (item){
