@@ -28,7 +28,7 @@
 <template>
   <el-carousel :interval="5000" arrow="always" height="600px">
     <el-carousel-item >
-      <img style="float: left;" src="../../assets/ic_bg_1.jpg" height="600px" width="100%"/>
+      <img style="float: left;" src="http://ow3dhmz3p.bkt.clouddn.com/ic_bg_1.jpg" height="600px" width="100%"/>
       <div class="text">
         <span class="cn">亨凯丰精密工业 · 科技成就完美未来</span><br/>
         <span class="en">HENGKAIFENG PRECISION INDUSTRY</span><br/>
@@ -36,7 +36,7 @@
       </div>
     </el-carousel-item>
     <el-carousel-item >
-      <img style="float: left;" src="../../assets/ic_bg_2.png" height="600px" />
+      <img style="float: left;" src="http://ow3dhmz3p.bkt.clouddn.com/ic_bg_2.png" height="600px" />
       <div class="text">
         <span class="cn">行业领先 · 质量第一 价格优惠 服务至上</span><br/>
         <span class="en">HENGKAIFENG PRECISION INDUSTRY</span><br/>
@@ -44,7 +44,7 @@
       </div>
     </el-carousel-item>
     <el-carousel-item >
-      <img style="float: left;" src="../../assets/ic_bg_3.jpg" height="600px"/>
+      <img style="float: left;" src="http://ow3dhmz3p.bkt.clouddn.com/ic_bg_3.jpg" height="600px"/>
       <div class="text">
         <span class="cn">合作共赢 · 为客户创造价值</span><br/>
         <span class="en">HENGKAIFENG PRECISION INDUSTRY</span><br/>
