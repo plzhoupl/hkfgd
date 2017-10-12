@@ -2,12 +2,13 @@
   <div id="app">
     <title-menu :menus="menus" :selectMenus="selectMenus" v-on:selectMenus="select"></title-menu>
     <router-view></router-view>
+    <foot></foot>
   </div>
 </template>
 
 <script>
   import TitleMenu from './components/component/title.vue'
-
+  import Foot from './components/component/foot.vue'
   export default {
     name: 'app',
     data() {
@@ -18,6 +19,7 @@
     },
     components: {
       TitleMenu,
+      Foot,
     },
     methods: {
       select(menu) {

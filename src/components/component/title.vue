@@ -3,7 +3,7 @@
     /*position: absolute;*/
     /*width: 1000px;*/
     margin-left: 15%;
-    line-height: 80px;
+    line-height: 60px;
     z-index: 999;
     /*color: white;*/
     cursor: pointer;
@@ -18,7 +18,7 @@
   }
   .menu{
     display: block;
-    margin-top: 40px;
+    margin-top: 65px;
     line-height: 50px;
     width: 80px;
     /*padding: 10px 20px 10px 20px;*/
@@ -30,7 +30,7 @@
 
 <template>
     <el-row id="menu">
-      <el-col class="logo" :span="6"><img src="../../assets/logo.png" width="150px"/></el-col>
+      <el-col class="logo" :span="6"><img src="../../assets/logo.png" width="220px"/></el-col>
       <el-col class="list" v-for="menu in menus" :span="2" > <span v-on:click="selectMenu(menu)"  :class="selectMenus==menu ?
        'select-item menu' :'item menu'" >{{menu}}</span> </el-col>
     </el-row>

@@ -1,7 +1,10 @@
 <style scoped>
   #zhaopin{
+    width: 1200px;
+    box-shadow:0 10px 5px #888888,0 0 5px #888888,0 0 5px #888888;
     background-color: #F1EAEB;
     padding: 80px 0;
+    margin: 30px auto 100px;
   }
   p {
     text-align: left;
@@ -14,9 +17,7 @@
     font-weight: bold;
     margin-bottom: 20px;
   }
-  #foot{
-    margin-top: 20px;
-  }
+
 </style>
 
 <template>
@@ -29,13 +30,10 @@
       </el-col>
     </el-row>
     </div>
-    <foot></foot>
   </div>
 </template>
 
 <script>
-  import Foot from '../../component/foot.vue'
-
   export default {
     data() {
       return {
@@ -58,9 +56,6 @@
         ]
       }
 
-    },
-    components: {
-      Foot,
     },
     mounted(){
       $(window).scrollTop(0);

@@ -1,7 +1,10 @@
 <style scoped>
   #about{
+    width: 1200px;
+    box-shadow:0 10px 5px #888888,0 0 5px #888888,0 0 5px #888888;
     background-color: #F1EAEB;
     padding: 80px 0;
+    margin: 30px auto 100px;
   }
   p {
     text-align: left;
@@ -27,13 +30,10 @@
         <p v-for="array in arrays">{{array}}</p>
       </el-col>
     </el-row>
-    <foot></foot>
   </div>
 </template>
 
 <script>
-  import Foot from '../../component/foot.vue'
-
   export default {
     data() {
       return {
@@ -49,9 +49,6 @@
           '联系电话：18928444977 固话号码：0755-36528911',
         ]
       }
-    },
-    components: {
-      Foot,
     },
     mounted(){
       $(window).scrollTop(0);
