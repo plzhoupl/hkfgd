@@ -97,7 +97,7 @@
           {id:13,img: "/static/product/product13.jpg", title: "三砂五位磨头5-1"},
           {id:14,img: "/static/product/product14.jpg", title: "三砂五位磨头5-2"},
           {id:15,img: "/static/product/product15.jpg", title: "三砂五位磨头5-3"},
-          {id:16,img: "/static/product/product16.jpg", title: "电镀金刚砂磨头1"},
+
           {id:17,img: "/static/product/product17.jpg", title: "电镀金刚砂磨头2"},
           {id:18,img: "/static/product/product18.jpg", title: "电镀金刚砂磨头3"},
           {id:19,img: "/static/product/product19.jpg", title: "电镀金刚砂磨头4"},
@@ -147,9 +147,11 @@
           {id:63,img: "/static/product/product63.jpg", title: "电镀金刚砂磨头48"},
           {id:64,img: "/static/product/product64.jpg", title: "电镀金刚砂磨头49"},
           {id:65,img: "/static/product/product65.jpg", title: "电镀金刚砂磨头50"},
-          {id:66,img: "/static/product/product66.jpg", title: "电镀金刚砂磨头包装盒"},
+          {id:66,img: "/static/product/product66.jpg", title: "电镀金刚砂磨头51"},
           {id:67,img: "/static/product/product67.jpg", title: "电镀金刚砂磨头包装盒"},
           {id:68,img: "/static/product/product68.jpg", title: "电镀金刚砂磨头包装盒"},
+          {id:69,img: "/static/product/product69.jpg", title: "电镀金刚砂磨头包装盒"},
+          {id:70,img: "/static/product/product70.jpg", title: "电镀金刚砂磨头包装盒"},
         ],
         showImg: [],
       }

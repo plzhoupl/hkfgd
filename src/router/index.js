@@ -18,7 +18,7 @@ import Detail12 from '@/components/component/detail/detail12'
 import Detail13 from '@/components/component/detail/detail13'
 import Detail14 from '@/components/component/detail/detail14'
 import Detail15 from '@/components/component/detail/detail15'
-import Detail16 from '@/components/component/detail/detail16'
+
 import Detail17 from '@/components/component/detail/detail17'
 import Detail18 from '@/components/component/detail/detail18'
 import Detail19 from '@/components/component/detail/detail19'
@@ -71,6 +71,8 @@ import Detail65 from '@/components/component/detail/detail65'
 import Detail66 from '@/components/component/detail/detail66'
 import Detail67 from '@/components/component/detail/detail67'
 import Detail68 from '@/components/component/detail/detail68'
+import Detail69 from '@/components/component/detail/detail69'
+import Detail70 from '@/components/component/detail/detail70'
 import Product from '@/components/component/product'
 
 Vue.use(Router)
@@ -148,10 +150,7 @@ export default new Router({
       path: '/detail/15',
       component: Detail15
     },
-    {
-      path: '/detail/16',
-      component: Detail16
-    },
+
     {
       path: '/detail/17',
       component: Detail17
@@ -359,6 +358,14 @@ export default new Router({
     {
       path: '/detail/68',
       component: Detail68
+    },
+    {
+      path: '/detail/69',
+      component: Detail69
+    },
+    {
+      path: '/detail/70',
+      component: Detail70
     },
   ]
 })

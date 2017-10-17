@@ -81,12 +81,12 @@
 
         ],
         jinGangShi: [
-          {img: "/static/equ/jingangshi/pic1.jpg", title: "生产车间"},
-          {img: "/static/equ/jingangshi/pic2.jpg", title: "组装工作台"},
+          {img: "/static/equ/jingangshi/pic1.jpg", title: "金刚砂微粉调配"},
+          {img: "/static/equ/jingangshi/pic2.jpg", title: "金刚砂微粉调配"},
           {img: "/static/equ/jingangshi/pic3.jpg", title: "金刚石自动上砂设备"},
           {img: "/static/equ/jingangshi/pic4.jpg", title: "金刚石手动上砂设备"},
-          {img: "/static/equ/jingangshi/pic5.jpg", title: "金刚石微粉调配"},
-          {img: "/static/equ/jingangshi/pic6.jpg", title: "金刚石微粉储藏室"},
+          {img: "/static/equ/jingangshi/pic5.jpg", title: "组装工作台"},
+          {img: "/static/equ/jingangshi/pic6.jpg", title: "生产车间"},
         ],
         jianCha: [
           {img: "/static/equ/jiancha/pic1.jpg", title: "电子扫描影检测设备"},

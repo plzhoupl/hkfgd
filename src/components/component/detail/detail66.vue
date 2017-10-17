@@ -6,12 +6,7 @@
     padding: 80px 0;
     margin: 30px auto 100px;
   }
-  img{
-    width: 265px;
-    padding: 30px;
-    border: 2px solid #000;
-    background-color: #ffffff;
-  }
+
   p {
     text-align: left;
     line-height: 36px;
@@ -27,8 +22,8 @@
     <div id="detail66">
       <el-row>
         <el-col :span="14" :offset="5">
-          <img src="/static/product/product66.jpg" alt="电镀金刚砂磨头包装盒">
-          <h2>电镀金刚砂磨头包装盒</h2>
+          <img src="/static/product/product66.jpg" alt="电镀金刚砂磨头51">
+          <h2>电镀金刚砂磨头51</h2>
         </el-col>
       </el-row>
     </div>

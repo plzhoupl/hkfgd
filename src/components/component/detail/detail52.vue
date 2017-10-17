@@ -6,12 +6,7 @@
     padding: 80px 0;
     margin: 30px auto 100px;
   }
-  img{
-    width: 265px;
-    padding: 30px;
-    border: 2px solid #000;
-    background-color: #ffffff;
-  }
+
   p {
     text-align: left;
     line-height: 36px;

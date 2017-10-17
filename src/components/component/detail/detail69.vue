@@ -1,5 +1,5 @@
 <style scoped>
-  #detail16{
+  #detail69{
     width: 1200px;
     box-shadow:0 10px 5px #888888,0 0 5px #888888,0 0 5px #888888;
     background-color: #F1EAEB;
@@ -24,24 +24,24 @@
 </style>
 
 <template>
-    <div id="detail16">
-      <el-row>
-        <el-col :span="14" :offset="5">
-          <img src="/static/product/product16.jpg" alt="电镀金刚砂磨头1">
-          <h2>电镀金刚砂磨头1</h2>
-        </el-col>
-      </el-row>
-    </div>
+  <div id="detail69">
+    <el-row>
+      <el-col :span="14" :offset="5">
+        <img src="/static/product/product69.jpg" alt="电镀金刚砂磨头包装盒">
+        <h2>电镀金刚砂磨头包装盒</h2>
+      </el-col>
+    </el-row>
+  </div>
 </template>
 
 <script>
-    export default {
-        data() {
-            return {};
+  export default {
+    data() {
+      return {};
 
-        },
-      mounted(){
-        $(window).scrollTop(0);
-      }
+    },
+    mounted(){
+      $(window).scrollTop(0);
     }
+  }
 </script>
