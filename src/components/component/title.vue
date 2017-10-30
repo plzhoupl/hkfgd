@@ -2,11 +2,15 @@
   #menu{
     /*position: absolute;*/
     /*width: 1000px;*/
-    margin-left: 15%;
     line-height: 60px;
     z-index: 999;
     /*color: white;*/
     cursor: pointer;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    background: white;
   }
   .item{
     background: transparent;

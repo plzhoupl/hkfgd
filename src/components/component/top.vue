@@ -23,10 +23,13 @@
     line-height: 50px;
     font-size: 24px;
   }
+  .top{
+    margin-top: 60px;
+  }
 
 </style>
 <template>
-  <el-carousel :interval="5000" arrow="always" height="500px">
+  <el-carousel class="top" :interval="5000" arrow="always" height="500px">
     <el-carousel-item >
       <img style="float: left;" src="http://ow3dhmz3p.bkt.clouddn.com/ic_bg_1.jpg" height="500px" width="100%"/>
       <div class="text">

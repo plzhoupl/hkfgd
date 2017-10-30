@@ -1,4 +1,4 @@
-<style scoped>
+ <style scoped>
   #detail61{
     width: 1200px;
     box-shadow:0 10px 5px #888888,0 0 5px #888888,0 0 5px #888888;
